@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid19 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B63A9AD242C1B5E0027E51A /* COVID19 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID19 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B63A9B0242C1B5E0027E51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B63A9B2242C1B5E0027E51A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B63A9B7242C1B5E0027E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		1B63A9AE242C1B5E0027E51A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */,
+				1B63A9AD242C1B5E0027E51A /* COVID19 Stats.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			);
 			name = "Covid-19 Stats";
 			productName = "Covid-19 Stats";
-			productReference = 1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */;
+			productReference = 1B63A9AD242C1B5E0027E51A /* COVID19 Stats.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -414,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Covid-19-Stats";
-				PRODUCT_NAME = "Covid19 Stats";
+				PRODUCT_NAME = "COVID19 Stats";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -434,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Covid-19-Stats";
-				PRODUCT_NAME = "Covid19 Stats";
+				PRODUCT_NAME = "COVID19 Stats";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

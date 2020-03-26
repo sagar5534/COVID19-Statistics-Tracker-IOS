@@ -10,7 +10,6 @@ import UIKit
 import Alamofire
 import CountryKit
 
-
 typealias Country = [String: [CountryElement]]
 
 struct CountryElement: Codable {
