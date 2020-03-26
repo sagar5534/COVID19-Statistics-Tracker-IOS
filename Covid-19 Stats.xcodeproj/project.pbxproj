@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1B63A9B1242C1B5E0027E51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63A9B0242C1B5E0027E51A /* AppDelegate.swift */; };
 		1B63A9B3242C1B5E0027E51A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63A9B2242C1B5E0027E51A /* SceneDelegate.swift */; };
-		1B63A9B5242C1B5E0027E51A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63A9B4242C1B5E0027E51A /* ViewController.swift */; };
 		1B63A9B8242C1B5E0027E51A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B63A9B6242C1B5E0027E51A /* Main.storyboard */; };
 		1B63A9BA242C1B5F0027E51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B63A9B9242C1B5F0027E51A /* Assets.xcassets */; };
 		1B63A9BD242C1B5F0027E51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B63A9BB242C1B5F0027E51A /* LaunchScreen.storyboard */; };
+		1B697535242C257A00433A1B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B697534242C257A00433A1B /* MainView.swift */; };
+		1B697537242C26F600433A1B /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B697536242C26F600433A1B /* CountryCell.swift */; };
+		1B697543242C3C8900433A1B /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B697538242C3C8900433A1B /* Lato-Black.ttf */; };
+		1B697544242C3C8900433A1B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B697539242C3C8900433A1B /* Lato-LightItalic.ttf */; };
+		1B697545242C3C8900433A1B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753A242C3C8900433A1B /* Lato-Regular.ttf */; };
+		1B697546242C3C8900433A1B /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753B242C3C8900433A1B /* Lato-Italic.ttf */; };
+		1B697547242C3C8900433A1B /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753C242C3C8900433A1B /* Lato-Thin.ttf */; };
+		1B697548242C3C8900433A1B /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753D242C3C8900433A1B /* Lato-Light.ttf */; };
+		1B697549242C3C8900433A1B /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753E242C3C8900433A1B /* Lato-Bold.ttf */; };
+		1B69754A242C3C8900433A1B /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B69753F242C3C8900433A1B /* Lato-ThinItalic.ttf */; };
+		1B69754C242C3C8900433A1B /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B697541242C3C8900433A1B /* Lato-BoldItalic.ttf */; };
+		1B69754D242C3C8900433A1B /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B697542242C3C8900433A1B /* Lato-BlackItalic.ttf */; };
+		A1C5AAF7A0CC9EF051C2494C /* Pods_Covid_19_Stats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970B88A5C68842D4945019A9 /* Pods_Covid_19_Stats.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B63A9AD242C1B5E0027E51A /* Covid-19 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid19 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B63A9B0242C1B5E0027E51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B63A9B2242C1B5E0027E51A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B63A9B4242C1B5E0027E51A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B63A9B7242C1B5E0027E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B63A9B9242C1B5F0027E51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B63A9BC242C1B5F0027E51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B63A9BE242C1B5F0027E51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B697534242C257A00433A1B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = "/Users/sagar/Documents/Documents - Sagar’s MacBook Pro/Covid-19 Stats/Covid-19 Stats/MainView.swift"; sourceTree = "<absolute>"; };
+		1B697536242C26F600433A1B /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryCell.swift; path = "/Users/sagar/Documents/Documents - Sagar’s MacBook Pro/Covid-19 Stats/Covid-19 Stats/CountryCell.swift"; sourceTree = "<absolute>"; };
+		1B697538242C3C8900433A1B /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../Lato/Lato-Black.ttf"; sourceTree = "<group>"; };
+		1B697539242C3C8900433A1B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "../Lato/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		1B69753A242C3C8900433A1B /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../Lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		1B69753B242C3C8900433A1B /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "../Lato/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		1B69753C242C3C8900433A1B /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "../Lato/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		1B69753D242C3C8900433A1B /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../Lato/Lato-Light.ttf"; sourceTree = "<group>"; };
+		1B69753E242C3C8900433A1B /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		1B69753F242C3C8900433A1B /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-ThinItalic.ttf"; path = "../Lato/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1B697541242C3C8900433A1B /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "../Lato/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1B697542242C3C8900433A1B /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "../Lato/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		964619164AA839A081BCC47D /* Pods-Covid-19 Stats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid-19 Stats.debug.xcconfig"; path = "Target Support Files/Pods-Covid-19 Stats/Pods-Covid-19 Stats.debug.xcconfig"; sourceTree = "<group>"; };
+		970B88A5C68842D4945019A9 /* Pods_Covid_19_Stats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid_19_Stats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA430C18AC983DB5B02953C5 /* Pods-Covid-19 Stats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid-19 Stats.release.xcconfig"; path = "Target Support Files/Pods-Covid-19 Stats/Pods-Covid-19 Stats.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +57,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C5AAF7A0CC9EF051C2494C /* Pods_Covid_19_Stats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0463D7C1049EA8B978F64B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				964619164AA839A081BCC47D /* Pods-Covid-19 Stats.debug.xcconfig */,
+				FA430C18AC983DB5B02953C5 /* Pods-Covid-19 Stats.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1B63A9A4242C1B5D0027E51A = {
 			isa = PBXGroup;
 			children = (
 				1B63A9AF242C1B5E0027E51A /* Covid-19 Stats */,
 				1B63A9AE242C1B5E0027E51A /* Products */,
+				0463D7C1049EA8B978F64B4A /* Pods */,
+				BDBD58B93ED5E5ACDB155466 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1B63A9AE242C1B5E0027E51A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B63A9AD242C1B5E0027E51A /* Covid-19 Stats.app */,
+				1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +94,42 @@
 		1B63A9AF242C1B5E0027E51A /* Covid-19 Stats */ = {
 			isa = PBXGroup;
 			children = (
+				1B697536242C26F600433A1B /* CountryCell.swift */,
 				1B63A9B0242C1B5E0027E51A /* AppDelegate.swift */,
 				1B63A9B2242C1B5E0027E51A /* SceneDelegate.swift */,
-				1B63A9B4242C1B5E0027E51A /* ViewController.swift */,
+				1B697534242C257A00433A1B /* MainView.swift */,
+				1B69754E242C3C9D00433A1B /* Font */,
 				1B63A9B6242C1B5E0027E51A /* Main.storyboard */,
 				1B63A9B9242C1B5F0027E51A /* Assets.xcassets */,
 				1B63A9BB242C1B5F0027E51A /* LaunchScreen.storyboard */,
 				1B63A9BE242C1B5F0027E51A /* Info.plist */,
 			);
 			path = "Covid-19 Stats";
+			sourceTree = "<group>";
+		};
+		1B69754E242C3C9D00433A1B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1B697541242C3C8900433A1B /* Lato-BoldItalic.ttf */,
+				1B69753B242C3C8900433A1B /* Lato-Italic.ttf */,
+				1B69753D242C3C8900433A1B /* Lato-Light.ttf */,
+				1B697539242C3C8900433A1B /* Lato-LightItalic.ttf */,
+				1B69753A242C3C8900433A1B /* Lato-Regular.ttf */,
+				1B69753C242C3C8900433A1B /* Lato-Thin.ttf */,
+				1B69753F242C3C8900433A1B /* Lato-ThinItalic.ttf */,
+				1B697538242C3C8900433A1B /* Lato-Black.ttf */,
+				1B697542242C3C8900433A1B /* Lato-BlackItalic.ttf */,
+				1B69753E242C3C8900433A1B /* Lato-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BDBD58B93ED5E5ACDB155466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				970B88A5C68842D4945019A9 /* Pods_Covid_19_Stats.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B63A9C1242C1B5F0027E51A /* Build configuration list for PBXNativeTarget "Covid-19 Stats" */;
 			buildPhases = (
+				A714D043D057C56855CD8093 /* [CP] Check Pods Manifest.lock */,
 				1B63A9A9242C1B5D0027E51A /* Sources */,
 				1B63A9AA242C1B5D0027E51A /* Frameworks */,
 				1B63A9AB242C1B5D0027E51A /* Resources */,
+				DA46D03CF43D374A5770EE1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +151,7 @@
 			);
 			name = "Covid-19 Stats";
 			productName = "Covid-19 Stats";
-			productReference = 1B63A9AD242C1B5E0027E51A /* Covid-19 Stats.app */;
+			productReference = 1B63A9AD242C1B5E0027E51A /* Covid19 Stats.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,21 +192,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B697543242C3C8900433A1B /* Lato-Black.ttf in Resources */,
+				1B697549242C3C8900433A1B /* Lato-Bold.ttf in Resources */,
+				1B69754D242C3C8900433A1B /* Lato-BlackItalic.ttf in Resources */,
+				1B697547242C3C8900433A1B /* Lato-Thin.ttf in Resources */,
+				1B697546242C3C8900433A1B /* Lato-Italic.ttf in Resources */,
+				1B697548242C3C8900433A1B /* Lato-Light.ttf in Resources */,
+				1B697545242C3C8900433A1B /* Lato-Regular.ttf in Resources */,
+				1B697544242C3C8900433A1B /* Lato-LightItalic.ttf in Resources */,
+				1B69754A242C3C8900433A1B /* Lato-ThinItalic.ttf in Resources */,
 				1B63A9BD242C1B5F0027E51A /* LaunchScreen.storyboard in Resources */,
 				1B63A9BA242C1B5F0027E51A /* Assets.xcassets in Resources */,
 				1B63A9B8242C1B5E0027E51A /* Main.storyboard in Resources */,
+				1B69754C242C3C8900433A1B /* Lato-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A714D043D057C56855CD8093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid-19 Stats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA46D03CF43D374A5770EE1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Stats/Pods-Covid-19 Stats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Stats/Pods-Covid-19 Stats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Stats/Pods-Covid-19 Stats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B63A9A9242C1B5D0027E51A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B63A9B5242C1B5E0027E51A /* ViewController.swift in Sources */,
+				1B697537242C26F600433A1B /* CountryCell.swift in Sources */,
 				1B63A9B1242C1B5E0027E51A /* AppDelegate.swift in Sources */,
+				1B697535242C257A00433A1B /* MainView.swift in Sources */,
 				1B63A9B3242C1B5E0027E51A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,17 +402,19 @@
 		};
 		1B63A9C2242C1B5F0027E51A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964619164AA839A081BCC47D /* Pods-Covid-19 Stats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LL6476HKHT;
 				INFOPLIST_FILE = "Covid-19 Stats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Covid-19-Stats";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Covid19 Stats";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +422,19 @@
 		};
 		1B63A9C3242C1B5F0027E51A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA430C18AC983DB5B02953C5 /* Pods-Covid-19 Stats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LL6476HKHT;
 				INFOPLIST_FILE = "Covid-19 Stats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sagar.Covid-19-Stats";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Covid19 Stats";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

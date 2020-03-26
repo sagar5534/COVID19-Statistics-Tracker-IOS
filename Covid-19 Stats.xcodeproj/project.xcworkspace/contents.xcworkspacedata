@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Covid-19 Stats.xcodeproj">
+      location = "group:/Users/sagar/Documents/Documents - Sagar&#x2019;s MacBook Pro/Covid-19 Stats/Covid-19 Stats/CountryCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/sagar/Documents/Documents - Sagar&#x2019;s MacBook Pro/Covid-19 Stats/Covid-19 Stats/MainView.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

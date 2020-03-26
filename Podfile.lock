@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.0.5)
+  - CountryKit (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CountryKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CountryKit
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  CountryKit: 8886e12d87f11907c7c93e45229658b654e00df0
+
+PODFILE CHECKSUM: 61347a6e97ed4f3d05894ccae55a4ea6aa0fc615
+
+COCOAPODS: 1.8.4
